@@ -1,14 +1,14 @@
 [
 {
-  "modid": "tubecraft",
+  "modid": "tCraft",
   "name": "Tube Craft",
   "description": "Here come play with some tubes",
   "version": "1.0",
-  "mcversion": "1.7.22",
+  "mcversion": "1.7.10",
   "url": "",
   "updateUrl": "",
   "authorList": [
-    "jamesscape2",
+    "jamesscape2"
   ],
   "credits": jamesscape2",
   "logoFile": "",
