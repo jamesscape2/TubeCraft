@@ -1,4 +1,4 @@
-package com.jamesscape2.tubecraft.proxy;
+package com.jamesscape2.tcraft.proxy;
 
 /**
  * Project Name: TubeCraft

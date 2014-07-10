@@ -1,4 +1,4 @@
-package com.jamesscape2.tubecraft.client.gui;
+package com.jamesscape2.tcraft.client.gui;
 
 import cpw.mods.fml.client.IModGuiFactory;
 import net.minecraft.client.Minecraft;

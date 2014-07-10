@@ -1,6 +1,6 @@
-package com.jamesscape2.tubecraft.handler;
+package com.jamesscape2.tcraft.handler;
 
-import com.jamesscape2.tubecraft.reference.Reference;
+import com.jamesscape2.tcraft.reference.Reference;
 import cpw.mods.fml.client.event.ConfigChangedEvent;
 import cpw.mods.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.common.config.Configuration;
@@ -23,6 +23,16 @@ public class ConfigurationHandler
     {
         if (configuration == null) {
             configuration = new Configuration(configFile);
+            loadConfiguration();
+        }
+    }
+
+    private static void loadConfiguration()
+    {
+        testValue = configuration.getBoolean("configValue", Configuration.CATEGORY_GENERAL, false, "This is an example configuration value");
+
+        if (configuration.hasChanged()) {
+            configuration.save();
         }
     }
 
@@ -31,15 +41,6 @@ public class ConfigurationHandler
     {
         if (event.modID.equalsIgnoreCase(Reference.MOD_ID)) {
             loadConfiguration();
-        }
-    }
-
-    public void loadConfiguration()
-    {
-        testValue = configuration.getBoolean("configValue", Configuration.CATEGORY_GENERAL, false, "This is an example configuration value");
-
-        if (configuration.hasChanged()) {
-            configuration.save();
         }
     }
 

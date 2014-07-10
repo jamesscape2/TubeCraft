@@ -1,4 +1,4 @@
-package com.jamesscape2.tubecraft.proxy;
+package com.jamesscape2.tcraft.proxy;
 
 /**
  * Project Name: TubeCraft
@@ -7,7 +7,7 @@ package com.jamesscape2.tubecraft.proxy;
  *
  * @author Jamesscape2
  */
-public interface IProxy
+public class ServerProxy extends CommonProxy
 {
 
 }

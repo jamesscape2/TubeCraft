@@ -1,7 +1,7 @@
-package com.jamesscape2.tubecraft.client.gui;
+package com.jamesscape2.tcraft.client.gui;
 
-import com.jamesscape2.tubecraft.handler.ConfigurationHandler;
-import com.jamesscape2.tubecraft.reference.Reference;
+import com.jamesscape2.tcraft.handler.ConfigurationHandler;
+import com.jamesscape2.tcraft.reference.Reference;
 import cpw.mods.fml.client.config.GuiConfig;
 import net.minecraft.client.gui.GuiScreen;
 import net.minecraftforge.common.config.ConfigElement;
